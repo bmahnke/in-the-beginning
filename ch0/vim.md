@@ -5,7 +5,11 @@ Commands:
   vim -o [file] [file2] # horizontal
   vim -O [file] [file2] # vertical
 ```
-
+- Split files from within a file
+```
+  - vi [file]
+  - :vsp [file2]
+```
 - Switch between panels when split: `[CTRL] + w`
 - Skip to end of line: `[Shift] + $`
 - Find and replace words: `:%s/\~/\*`
