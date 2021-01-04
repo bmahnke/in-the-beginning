@@ -1,5 +1,7 @@
 Commands:
 
+- Move between split files: `[CTRL] + W`
+
 - Splitting files from the command line
 ```
   vim -o [file] [file2] # horizontal
@@ -12,6 +14,8 @@ Commands:
 ```
 - Switch between panels when split: `[CTRL] + w`
 - Skip to end of line: `[Shift] + $`
+- Skip to end of next punctuation: `[Shift] + 0` 
+- Beginning of line: `[Shift] + ^`
 - Find and replace words: `:%s/\~/\*`
 ```
   - %: global replace in file
