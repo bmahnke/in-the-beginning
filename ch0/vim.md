@@ -17,6 +17,7 @@ Commands:
 - Skip to end of next punctuation: `[Shift] + 0` 
 - Beginning of line: `[Shift] + ^`
 - Find and replace words: `:%s/\~/\*`
+- Set Line Numbers in vi: `set number` or (`set nonumber` if not desired)
 ```
   - %: global replace in file
   - s: the search
