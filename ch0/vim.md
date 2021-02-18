@@ -14,10 +14,12 @@ Commands:
 ```
 - Switch between panels when split: `[CTRL] + w`
 - Skip to end of line: `[Shift] + $`
-- Skip to end of next punctuation: `[Shift] + 0` 
+- Skip to end of next punctuation: `[Shift] + 0`
 - Beginning of line: `[Shift] + ^`
 - Find and replace words: `:%s/\~/\*`
 - Set Line Numbers in vi: `set number` or (`set nonumber` if not desired)
+- Paste Text from Clipboard: `"+p` or `"*p`
+- Copy Text to Clipboard: `"+yy` or `"*yy`
 ```
   - %: global replace in file
   - s: the search
